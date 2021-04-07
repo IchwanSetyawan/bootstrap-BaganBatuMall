@@ -5,27 +5,57 @@
 
 
 i.fas.fa-shopping-cart{
-    color: #fff;
-    /* font-size: 24px;     */
-    
+    color: #fff; 
+    font-size: 20px;       
+}
+.form-inline i{    
+    color: rgb(136, 136, 136);    
 }
 
-.form-inline i{
-    /* padding-left: 1px; */
-    color: rgb(136, 136, 136);
+.search-icon{
+    margin-left: -30px;
 }
 
-.form-inline{
-/* display: inline; */
-background-color: red;
+input{
+    border: none;
+    border-radius: 50px;
 }
 
-.form-search{    
-    
-    display: inline-block;
-    background-color: rgba(58, 55, 241, 0.5)
-}
-
-.search-container{
+.container-navbar{
+    margin: auto 0;   
     box-sizing: border-box;
 }
+
+.container-caraousel{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+/* kateogry */
+.category-icon{
+box-sizing: border-box;
+ text-align: center;   
+ 
+}
+.category-icon i{    
+    background-color: #ffff;
+    border:1px solid #29b1b6;
+    color: #128286;
+    padding: 20px 50px;
+    margin: 10px 0px;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.container-icon{
+    box-sizing: border-box;    
+    align-items: center;
+     /* padding: 20px;  */
+
+}
+
+.container-category{
+    background-color: #eaeaea;
+}
+/* end kategori */
