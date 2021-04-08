@@ -33,29 +33,58 @@ input{
 
 
 /* kateogry */
+.container-category{
+    background-color: #eaeaea;    
+}
+p.under-category{
+    width: 10%;    
+    height: 2px;
+    background-color: #128286 ;
+    margin: auto;
+    margin-top: -5px;    
+}
+
 .category-icon{
 box-sizing: border-box;
- text-align: center;   
+ text-align: center; 
+ padding-left: 20px; 
+ 
  
 }
 .category-icon i{    
     background-color: #ffff;
     border:1px solid #29b1b6;
     color: #128286;
-    padding: 20px 50px;
-    margin: 10px 0px;
+    text-align: center;
+    padding-top: 20px; 
+    margin-top: 25px;   
     border-radius: 7px;
     font-size: 18px;
+    width: 80%;    
+    
 }
+.category-icon p{
+    font-size: 14px ;
+    /* margin-top: 5px; */
+}
+
 
 .container-icon{
     box-sizing: border-box;    
-    align-items: center;
-     /* padding: 20px;  */
+    align-items: center;     
+     
 
 }
 
-.container-category{
-    background-color: #eaeaea;
+
+@media (min-width: 576px) { 
+    .category-icon i{
+        padding: 30px 70px; 
+        font-size: 28px;
+    }  
+    p.under-category{
+        width: 7%;  
+        margin-bottom: 1.5em;          
+    }
 }
 /* end kategori */
