@@ -16,9 +16,11 @@
             
     <div class="row">
         <div class="col">
-            <nav class="navbar navbar-expand bg-dark navbar-dark container-navbar">                                        
+            <nav class="navbar navbar-expand  navbar-dark container-navbar">                                        
                 <div class="col-2">
-                    <a class="navbar-brand" href="#">BBM</a>
+                    <a class="navbar-brand" href="#">
+                        <img src="/src/core-img/bbmall-bigLogo.png" alt="Logo" style="width:40px;">
+                    </a>
                 </div>                                    
                 <div class="col-8 ">
                     <form class="form-inline " >                    
@@ -27,7 +29,7 @@
                         </form>
                     </div>
                     <div class="col-2">
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i class="fas fa-comment-dots"></i></a>
                     </div>                                            
                 </nav>                
             </div>
@@ -70,7 +72,7 @@
         <!-- END CARAOUSEL -->
 
         <!-- Kategori   -->
-        <div class="container-fluid container-category pb-4 pt-4">
+        <div class="container-fluid container-category pb-5 pt-4">
             <div class="row">
                 <div class="col-12 text-center ">
                     <h6>Kategori</h6>
@@ -80,60 +82,62 @@
 
             <div class="row container-icon">
                 <div class="col-6 col-md-4 category-icon ">
-                    <i class="fas fa-store-alt">
+                    <i class="fas fa-store-alt shadow rounded">
                         <p class="mt-2">Sembako </p>
                     </i>
                     
                 </div>
                 <div class="col-6 col-md-4 category-icon ">
-                    <i class="fas fa-utensils">
+                    <i class="fas fa-utensils shadow rounded">
                         <p class="mt-2">Food</p>
                     </i>
                 </div>
                 <div class="col-6 col-md-4 category-icon ">
-                    <i class="fas fa-tshirt">
+                    <i class="fas fa-tshirt shadow rounded">
                         <p class="mt-2">Fashion</p>
                     </i>
                 </div>
                 <div class="col-6 col-md-4 category-icon mt-2">
-                    <i class="fas fa-mobile-alt">
+                    <i class="fas fa-mobile-alt shadow rounded">
                         <p class="mt-2">Elektronik</p>
                     </i>
                 </div>    
+                <!-- <div class="col-6 col-md-4 category-icon mt-2">
+                    <i class="fas fa-fist-raised shadow rounded">                        
+                        <p class="mt-2">Jasa</p>
+                    </i>
+                </div>     -->
             </div>         
         </div> 
         <!-- End Kategori    -->
 
         <!-- Menu bootom -->
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom d-flex justify-content-around">            
-            <div class="row ml-2 mr-2">
-                <div class="col-3">
-                    <i class="fas fa-home"></i>
-                </div>
-                <div class="col-3">
-                    <i class="fas fa-home"></i>
-                </div>
-                <div class="col-3">
-                    <i class="fas fa-home"></i>
-                </div>
-                <div class="col-3">
-                    <i class="fas fa-home"></i>
-                </div>
+        <div class="d-flex justify-content-around container-bottom-menu pt-1">
+            <div class="bottom-icon-list pt-2">
+                <i class="fas fa-home">
+                    <p class="mt-2">Home</p>
+                </i>
             </div>
-            <!-- <ul class="navbar-nav">                
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                    hahaha
-                </a>
-              </li>            
-            </ul> -->
-          </nav>
-
-
-
-
-        <!-- End menu Bottom -->
-
+    
+            <div class="pt-2 bottom-icon-list">
+                <i class="fas fa-stream">
+                    <p class="mt-2">Linimasa</p>
+                </i>
+            </div>
+    
+            <div class="pt-2 bottom-icon-list">
+                <i class="fas fa-shopping-cart">
+                    <p class="mt-2">Keranjang</p>
+                </i>
+            </div>
+    
+            <div class="pt-2 bottom-icon-list">
+                <i class="fas fa-user">
+                    <p class="mt-2">Profi</p>
+                </i>
+            </div>  
+          </div>
+        
     
 </body>
 </html>

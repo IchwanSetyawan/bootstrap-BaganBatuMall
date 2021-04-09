@@ -4,8 +4,13 @@
 }
 
 
-i.fas.fa-shopping-cart, .fa-home{
-    color: #fff; 
+.fa-shopping-cart, .fa-home, .fa-user, .fa-stream{
+    color: #d1e8e2; 
+    /* color: #d9b08c; */
+    font-size: 16px;       
+}
+.fa-comment-dots{
+    color: #fafafa; 
     font-size: 20px;       
 }
 .form-inline i{    
@@ -24,6 +29,7 @@ input{
 .container-navbar{
     margin: auto 0;   
     box-sizing: border-box;
+    background-color: #116466;
 }
 
 .container-caraousel{
@@ -34,11 +40,11 @@ input{
 
 /* kateogry */
 .container-category{
-    background-color: #eaeaea; 
-    height: 700px;   
+
+    background-color: #d1e8e2;
 }
 p.under-category{
-    width: 10%;    
+    width: 7%;    
     height: 2px;
     background-color: #128286 ;
     margin: auto;
@@ -53,28 +59,26 @@ box-sizing: border-box;
  
 }
 .category-icon i{    
-    background-color: #ffff;
-    border:1px solid #29b1b6;
-    color: #128286;
+    background-color: #fafafa;
+    /* border:1px solid #d9b08c; */
+    border: 1px solid #116466;
+    /* color: #128286;*/
+    color: #116466;
     text-align: center;
     padding-top: 20px; 
-    margin-top: 25px;   
-    border-radius: 7px;
+    margin-top: 25px;       
     font-size: 18px;
     width: 100%;    
     
 }
 .category-icon p{
-    font-size: 14px ;
-    /* margin-top: 5px; */
+    font-size: 14px ;    
 }
 
 
 .container-icon{
     box-sizing: border-box;    
-    align-items: center;     
-     
-
+    align-items: center;          
 }
 
 
@@ -84,8 +88,31 @@ box-sizing: border-box;
         font-size: 28px;
     }  
     p.under-category{
-        width: 7%;  
+        width: 5%;  
         margin-bottom: 1.5em;          
     }
 }
 /* end kategori */
+
+/* Bottom menu */
+
+
+
+ul.navbar-nav{
+    margin: auto;
+    background-color: brown;
+        
+}
+.bottom-icon-list i{
+    text-align: center;    
+}
+.bottom-icon-list p{
+    font-size: 12px;
+    font-weight: 100;    
+    margin-bottom: -30px;
+
+}
+
+.container-bottom-menu{
+    background-color: #116466;
+}
