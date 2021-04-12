@@ -37,19 +37,25 @@ input{
     padding-left: 0px;
 }
 
+span.text-caraousel{
+    margin-top: -300px;
+}
+
 
 /* kateogry */
-.container-category{
 
+.container-category{
+    min-height: 500px;
     background-color: #d1e8e2;
 }
-p.under-category{
-    width: 7%;    
-    height: 2px;
-    background-color: #128286 ;
+p.under-category, .under-rekomendasi{
+    width: 15%;    
+    height: 3px;
+    background-color: #999 ;
     margin: auto;
     margin-top: -5px;    
 }
+
 
 .category-icon{
 box-sizing: border-box;
@@ -116,3 +122,25 @@ ul.navbar-nav{
 .container-bottom-menu{
     background-color: #116466;
 }
+
+/* rekomendasi */
+
+.rekomendasi-container{
+    /* min-height: 700px; */
+    padding-bottom: 100px;
+    align-items: center;    
+}
+
+h5 strong{
+    color: darkgreen;
+}
+
+h5 strong span{    
+    font-size: medium;
+}
+ hr{     
+     width: 20%;
+     height: 3px;  
+ } 
+
+
